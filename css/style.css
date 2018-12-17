@@ -53,7 +53,7 @@ ul{
 }
 p{
     font-size: 18px;
-    text-transform: lowercase;
+    text-transform: none;
 }
 .wrapper{
 	padding: 75px 0px;
