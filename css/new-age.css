@@ -1,7 +1,10 @@
 html,
 body {
   width: 100%;
-  height: 100%; }
+  height: 100%; 
+  background: rgb(5,0,85);
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  background-attachment: fixed;}
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
@@ -112,18 +115,19 @@ section {
 
 header.masthead {
   position: relative;
-  width: 100%;
+  width: 100vm;
   height: 100vh;
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
   background: rgb(5,0,85);
   background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  background-attachment: fixed;
 }
 
   header.masthead .header-content {
     max-width: 660px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     text-align: center; }
     header.masthead .header-content h1 {
       font-size: 30px; }
